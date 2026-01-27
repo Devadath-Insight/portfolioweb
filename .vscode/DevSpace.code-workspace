@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Devi"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DevSpace"
+	}
+}
