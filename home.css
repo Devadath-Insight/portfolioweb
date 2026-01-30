@@ -106,7 +106,7 @@ background: linear-gradient(135deg, #000000, #242424);
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.6);
     }
-    h2 {
+    h3 {
       border-bottom: 2px solid #333;
       padding-bottom: 5px;
       margin-bottom: 15px;
@@ -189,15 +189,15 @@ border: 1px solid #333;
             --gradient-1: linear-gradient(135deg, #ff6b35, #f7931e);
         }
 
-   .logo {
+   h2{
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;       /* slightly bigger */
   font-weight: 900;
   letter-spacing: 1.5px;   /* more space between letters */
   background: var(--gradient-1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 
 

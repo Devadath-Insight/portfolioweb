@@ -1,3 +1,3 @@
 git add .
-git commit -m "home page theme changed"
+git commit -m "home page theme full changed"
 git push
