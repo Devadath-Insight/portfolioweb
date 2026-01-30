@@ -71,7 +71,7 @@ header {
   }
 
   .header-text p {
-    font-size: 0.8rem;
+    font-size: 0rem;
   }
 }
    
@@ -101,7 +101,8 @@ background: linear-gradient(135deg, #181818, #000000);      color: #fff;
     section {
       max-width: 900px;
       margin: 20px auto;
-background: linear-gradient(135deg, #000000, #242424);      padding: 20px;
+background: linear-gradient(135deg, #000000, #242424);    
+  padding: 20px;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.6);
     }
@@ -109,7 +110,9 @@ background: linear-gradient(135deg, #000000, #242424);      padding: 20px;
       border-bottom: 2px solid #333;
       padding-bottom: 5px;
       margin-bottom: 15px;
-      color: #bb86fc;
+      color:  #f7931e;
+     font-family: 'Playfair Display', serif;
+
     }
     ul {
       list-style: none;
@@ -124,7 +127,7 @@ background: linear-gradient(135deg, #000000, #242424);      padding: 20px;
       margin: 4px;
       border-radius: 20px;
       background: #333;
-      color: #bb86fc;
+      color:  #ce7745;
       font-size: 14px;
     }
     footer {
@@ -140,15 +143,17 @@ background: linear-gradient(135deg, #000000, #242424);      padding: 20px;
       display: inline-block;
       padding: 8px 16px;
       margin-top: 10px;
-      background: #bb86fc;
-      color: #000;
+background: linear-gradient(135deg, #141414, #1f1f1f);
+border: 1px solid #333;
+      color: #bebebe;
       border-radius: 8px;
       text-decoration: none;
       cursor: pointer;
       font-weight: bold;
     }
-    .btn:hover { background: #9b59d0; color: #fff; }
-    a { color: #80cbc4; }
+    .btn:hover { background: #202020 }
+    a {color: #80c1ff;
+ }
     a:hover { text-decoration: underline; }
   
 
@@ -174,3 +179,38 @@ background: linear-gradient(135deg, #000000, #242424);      padding: 20px;
   transform: scale(1.2);
   opacity: 0.8;
 }
+  :root {
+            --bg-dark: #0a0a0a;
+            --bg-card: #1a1a1a;
+            --accent-primary: #ff6b35;
+            --accent-secondary: #f7931e;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --gradient-1: linear-gradient(135deg, #ff6b35, #f7931e);
+        }
+
+   .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;       /* slightly bigger */
+  font-weight: 900;
+  letter-spacing: 1.5px;   /* more space between letters */
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Change font for normal text only (no headings, no colors) */
+p,
+li,
+span,
+a,
+label,
+small,
+input,
+textarea {
+  font-family: 'Outfit', sans-serif;
+}
+
+        
